@@ -1,6 +1,4 @@
-## Module 5 Homework 
-
-Solution: https://www.youtube.com/watch?v=YtddC7vJOgQ
+## Week 5 Homework 
 
 In this homework we'll put what we learned about Spark in practice.
 

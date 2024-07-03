@@ -25,19 +25,51 @@ so in total, you will make three submissions.
 
 #### Project Attempt #1
 
-* Project: https://courses.datatalks.club/de-zoomcamp-2024/project/project1
-* Review: https://courses.datatalks.club/de-zoomcamp-2024/project/project1/eval
+Project:
 
-#### Project Attempt #2
+* Form: TBA
+* Deadline: TBA
 
-* Project: https://courses.datatalks.club/de-zoomcamp-2024/project/project2
-* Review: https://courses.datatalks.club/de-zoomcamp-2024/project/project2/eval
+Peer reviewing:
 
-> **Important**: update your "Certificate name" here: https://courses.datatalks.club/de-zoomcamp-2024/enrollment -
-this is what we will use when generating certificates for you.
+* Peer review assignments: TBA ("project-01" sheet)
+* Form: TBA
+* Deadline: TBA
+
+Project feedback: TBA ("project-01" sheet)
+
+
+#### Project Attempt #1
+
+Project:
+
+* Form: TBA
+* Deadline: TBA
+
+Peer reviewing:
+
+* Peer review assignments: TBA ("project-02" sheet)
+* Form: TBA
+* Deadline: TBA
+
+Project feedback: TBA ("project-02" sheet)
+
+
 
 ### Evaluation criteria
 
-See [here](../../week_7_project/README.md)
+See [here](../../projects/README.md)
 
 
+### Misc
+
+To get the hash for your project, use this function to hash your email:
+
+```python
+from hashlib import sha1
+
+def compute_hash(email):
+    return sha1(email.lower().encode('utf-8')).hexdigest()
+```
+
+Or use [this website](http://www.sha1-online.com/). 
